@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jquery-growl demo</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="https://raw.githack.com/Zandy/jquery-growl/master/growl.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+    $(function () {
+        $.growl("demo ok");
+        $.growl("demo error", {life: 8000, type: 'error'});
+    });
+</script>
+<p>a</p>
+<p>b</p>
+<p>c</p>
+</body>
+</html>
